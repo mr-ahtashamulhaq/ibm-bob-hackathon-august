@@ -21,3 +21,4 @@
 - [x] Run and record the final accessibility validation for the landing page and simulator.
 - [x] Use the supplied public Vercel Blob video as a full-screen landing-page hero background with accessible fallback behavior.
 - [x] Test the updated video hero on desktop and mobile, then push the update to GitHub and Vercel.
+- [x] Create, verify, and deliver a downloadable real screen recording of the live Gravexa landing page and simulator flow without AI-generated footage.
