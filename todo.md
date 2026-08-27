@@ -22,3 +22,5 @@
 - [x] Use the supplied public Vercel Blob video as a full-screen landing-page hero background with accessible fallback behavior.
 - [x] Test the updated video hero on desktop and mobile, then push the update to GitHub and Vercel.
 - [x] Create, verify, and deliver a downloadable real screen recording of the live Gravexa landing page and simulator flow without AI-generated footage.
+- [x] Rewrite `DESIGN.md` with the actual Gravexa visual system, interaction, accessibility, and responsive design guidelines.
+- [x] Rebuild `README.md` with the IBM Bob August Challenge context, theme, requirements mapping, badges, source links, repository structure, and clear setup guidance.
