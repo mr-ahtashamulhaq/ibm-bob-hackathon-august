@@ -2,7 +2,7 @@
 
 - [x] Restore the approved project skills and record their use in the repository.
 - [x] Restore and register the NASA Bennu GLB asset through the managed asset workflow. OSIRIS-REx is not part of the final scene scope.
-- [ ] Confirm the private GitHub repository `ibm-bob-hackathon-august` and connect the recovered local project.
+- [x] Confirm the private GitHub repository `ibm-bob-hackathon-august` and connect the recovered local project.
 - [x] Restore the Gravexa design tokens, default dark theme, readable light theme, typography, and motion rules.
 - [x] Restore the `/` landing route and the `/simulator` route with clear navigation between them.
 - [x] Restore and unit-test the browser-only simplified close-approach calculation model.
@@ -16,5 +16,6 @@
 - [x] Add the optional JPL/NASA reference-data panel with clear source separation from the local educational model.
 - [x] Write tests for simulation logic, API input validation, visual-mode selection, and important error paths.
 - [x] Write a simple-English README, source credits, Vercel configuration, and deployment steps.
-- [ ] Run build, type, unit, accessibility, responsive, and visual checks after each meaningful build phase.
-- [ ] Push the complete tested project to the private GitHub repository.
+- [x] Run build, type, unit, accessibility, responsive, and visual checks after each meaningful build phase.
+- [x] Push the complete tested project to the private GitHub repository.
+- [x] Run and record the final accessibility validation for the landing page and simulator.
