@@ -24,3 +24,5 @@
 - [x] Create, verify, and deliver a downloadable real screen recording of the live Gravexa landing page and simulator flow without AI-generated footage.
 - [x] Rewrite `DESIGN.md` with the actual Gravexa visual system, interaction, accessibility, and responsive design guidelines.
 - [x] Rebuild `README.md` with the IBM Bob August Challenge context, theme, requirements mapping, badges, source links, repository structure, and clear setup guidance.
+- [x] Prepare concise submission copy for the Gravexa project description, issue, and solution fields.
+- [x] Make the reviewed `mr-ahtashamulhaq/ibm-bob-hackathon-august` GitHub repository public.
