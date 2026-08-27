@@ -1,0 +1,2 @@
+import {explainResult,explanationInput} from "../../server/gravexa";
+export default async function handler(req:any,res:any){if(req.method!=="POST")return res.status(405).json({error:"Use POST."});try{const raw=typeof req.body==="string"?JSON.parse(req.body):req.body;const result=await explainResult(explanationInput.parse(raw));return res.status(200).json(result)}catch{return res.status(400).json({error:"The explanation request could not complete."})}}

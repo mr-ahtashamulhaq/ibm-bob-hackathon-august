@@ -1,0 +1,20 @@
+# Project TODO
+
+- [x] Restore the approved project skills and record their use in the repository.
+- [x] Restore and register the NASA Bennu GLB asset through the managed asset workflow. OSIRIS-REx is not part of the final scene scope.
+- [ ] Confirm the private GitHub repository `ibm-bob-hackathon-august` and connect the recovered local project.
+- [x] Restore the Gravexa design tokens, default dark theme, readable light theme, typography, and motion rules.
+- [x] Restore the `/` landing route and the `/simulator` route with clear navigation between them.
+- [x] Restore and unit-test the browser-only simplified close-approach calculation model.
+- [x] Restore accessible controls for miss-distance offset, approach speed, direction angle, uncertainty, asteroid size, presets, reset, and advanced controls.
+- [x] Restore local result cards and one-session compare mode without database writes.
+- [x] Restore the Babylon.js scene with the Bennu asset, Earth target, paths, uncertainty corridor, closest marker, playback, camera views, adaptive quality, and route cleanup.
+- [x] Restore the 2D fallback for reduced-motion and no-WebGL use.
+- [x] Restore the animated landing page with a consistent aerospace visual system, Lenis, restrained GSAP motion, and offscreen work deferral.
+- [x] Add the explicit educational-model disclaimer and plain-language learning content.
+- [x] Add the secure Groq explanation endpoint and a structured plain-English explanation panel.
+- [x] Add the optional JPL/NASA reference-data panel with clear source separation from the local educational model.
+- [x] Write tests for simulation logic, API input validation, visual-mode selection, and important error paths.
+- [x] Write a simple-English README, source credits, Vercel configuration, and deployment steps.
+- [ ] Run build, type, unit, accessibility, responsive, and visual checks after each meaningful build phase.
+- [ ] Push the complete tested project to the private GitHub repository.

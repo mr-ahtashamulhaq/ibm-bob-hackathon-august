@@ -1,0 +1,2 @@
+import {findReference,referenceInput} from "../../server/gravexa";
+export default async function handler(req:any,res:any){if(req.method!=="GET")return res.status(405).json({error:"Use GET."});try{const value=Array.isArray(req.query?.q)?req.query.q[0]:req.query?.q;const query=referenceInput.parse({query:value??"Bennu"}).query;return res.status(200).json(await findReference(query))}catch{return res.status(400).json({error:"The JPL reference request could not complete."})}}

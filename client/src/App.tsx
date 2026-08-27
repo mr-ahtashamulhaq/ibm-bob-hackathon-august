@@ -1,42 +1,12 @@
-import { Toaster } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+import {Toaster} from "@/components/ui/sonner";
+import {TooltipProvider} from "@/components/ui/tooltip";
+import {Route,Switch} from "wouter";
+import {lazy,Suspense} from "react";
 import ErrorBoundary from "./components/ErrorBoundary";
-import { ThemeProvider } from "./contexts/ThemeContext";
+import {ThemeProvider} from "./contexts/ThemeContext";
 import Home from "./pages/Home";
-
-function Router() {
-  // make sure to consider if you need authentication for certain routes
-  return (
-    <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
-    </Switch>
-  );
-}
-
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
-
-function App() {
-  return (
-    <ErrorBoundary>
-      <ThemeProvider
-        defaultTheme="light"
-        // switchable
-      >
-        <TooltipProvider>
-          <Toaster />
-          <Router />
-        </TooltipProvider>
-      </ThemeProvider>
-    </ErrorBoundary>
-  );
-}
-
-export default App;
+import NotFound from "./pages/NotFound";
+const Simulator=lazy(()=>import("./pages/Simulator"));
+function Loading(){return <main className="space-grain grid min-h-[100dvh] place-items-center bg-background"><p className="font-data text-xs tracking-[.15em] text-muted-foreground">LOADING SIMULATOR</p></main>}
+function Router(){return <Suspense fallback={<Loading/>}><Switch><Route path="/" component={Home}/><Route path="/simulator" component={Simulator}/><Route path="/404" component={NotFound}/><Route component={NotFound}/></Switch></Suspense>}
+export default function App(){return <ErrorBoundary><ThemeProvider defaultTheme="dark" switchable><TooltipProvider><Toaster/><Router/></TooltipProvider></ThemeProvider></ErrorBoundary>}
