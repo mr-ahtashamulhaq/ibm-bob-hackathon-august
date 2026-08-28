@@ -3,6 +3,7 @@
 [![IBM Bob Hackathon](https://img.shields.io/badge/IBM%20Bob-AI%20Builders%20Challenge-0f62fe?style=flat-square&logo=ibm&logoColor=white)](https://aibuilderschallenge-bobhub.bemyapp.com/#/sponsors/2-august-challenge)
 [![Theme](https://img.shields.io/badge/Theme-Advance%20Space%20Exploration%20with%20AI-7c5cff?style=flat-square)](https://aibuilderschallenge-bobhub.bemyapp.com/#/sponsors/2-august-challenge)
 [![Live site](https://img.shields.io/badge/Live%20site-gravexa.vercel.app-000000?style=flat-square&logo=vercel&logoColor=white)](https://gravexa.vercel.app)
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Demo%20Video-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/1hxC2grUFGM?si=CSFGeHTnFblfPfzW)
 [![No database](https://img.shields.io/badge/Database-none-2f855a?style=flat-square)](#privacy-and-data)
 
 **Gravexa** is an interactive learning tool about asteroid close approaches. Move a few values, watch the path change, and read a local result. The site is for students and the general public.
